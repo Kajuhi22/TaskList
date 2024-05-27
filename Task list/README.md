@@ -1,3 +1,15 @@
+***Challanges Faced** :
+
+-Rearranging the code for better understanding.
+
+-importing the nessesory modules
+-setting up required jdk
+
+-Modifing the code so that main to be placed in last of code 
+
+-Maintaining classes above and main below.
+
+
 ### Description
 This Java program includes two main classes: `Task` and `TaskListApp`.
 
