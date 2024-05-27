@@ -1,18 +1,12 @@
-## Getting Started
+### Description
+This Java program includes two main classes: `Task` and `TaskListApp`.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+#### Task Class
+- **Attributes**:
+  - `ArrayList<String> tasks`: Stores the list of tasks.
+- **Methods**:
+  - `addTask(String name)`: Adds a new task to the list and prints a confirmation message.
+  - `removeTask(int taskNumber)`: Removes a task based on its position in the list, if the task number is valid.
+  - `listTasks()`: Prints all tasks in the list with their respective numbers.
+  - `isEmpty()`: Checks if the task list is empty.
+  - `isValidNumber(int taskNumber)`: Validates if a given task number is within the bounds of the task list.
