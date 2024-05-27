@@ -1,4 +1,3 @@
-package Basic_java.TaskListApp;
 
 import java.util.Scanner;
 import java.util.ArrayList;
